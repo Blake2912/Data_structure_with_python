@@ -14,7 +14,7 @@ class Stack:
         if self.is_empty():
             print("Stack Underflow!")
         else:
-            print("Item popped:",self.stack.pop())
+            print("Item popped:", self.stack.pop())
 
     def display(self):
         if self.is_empty():
